@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3E4B3C176ED99000809883 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3E4B3B176ED99000809883 /* Cocoa.framework */; };
+		4C3E4B3E176ED99000809883 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3E4B3D176ED99000809883 /* AppleScriptObjC.framework */; };
+		4C3E4B48176ED99000809883 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E4B46176ED99000809883 /* InfoPlist.strings */; };
+		4C3E4B4A176ED99000809883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E4B49176ED99000809883 /* main.m */; };
+		4C3E4B4E176ED99000809883 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E4B4C176ED99000809883 /* Credits.rtf */; };
+		4C3E4B50176ED99000809883 /* pogoAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E4B4F176ED99000809883 /* pogoAppDelegate.applescript */; };
+		4C3E4B53176ED99000809883 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E4B51176ED99000809883 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C3E4B38176ED99000809883 /* Pogo Print.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pogo Print.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3E4B3B176ED99000809883 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4C3E4B3D176ED99000809883 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		4C3E4B40176ED99000809883 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4C3E4B41176ED99000809883 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C3E4B42176ED99000809883 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C3E4B45176ED99000809883 /* Pogo Print-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pogo Print-Info.plist"; sourceTree = "<group>"; };
+		4C3E4B47176ED99000809883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C3E4B49176ED99000809883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C3E4B4B176ED99000809883 /* Pogo Print-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pogo Print-Prefix.pch"; sourceTree = "<group>"; };
+		4C3E4B4D176ED99000809883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4C3E4B4F176ED99000809883 /* pogoAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = pogoAppDelegate.applescript; sourceTree = "<group>"; };
+		4C3E4B52176ED99000809883 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3E4B35176ED99000809883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3E4B3C176ED99000809883 /* Cocoa.framework in Frameworks */,
+				4C3E4B3E176ED99000809883 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3E4B2F176ED99000809883 = {
+			isa = PBXGroup;
+			children = (
+				4C3E4B43176ED99000809883 /* Pogo Print */,
+				4C3E4B3A176ED99000809883 /* Frameworks */,
+				4C3E4B39176ED99000809883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3E4B39176ED99000809883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E4B38176ED99000809883 /* Pogo Print.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3E4B3A176ED99000809883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E4B3B176ED99000809883 /* Cocoa.framework */,
+				4C3E4B3D176ED99000809883 /* AppleScriptObjC.framework */,
+				4C3E4B3F176ED99000809883 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C3E4B3F176ED99000809883 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E4B40176ED99000809883 /* AppKit.framework */,
+				4C3E4B41176ED99000809883 /* CoreData.framework */,
+				4C3E4B42176ED99000809883 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4C3E4B43176ED99000809883 /* Pogo Print */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E4B4F176ED99000809883 /* pogoAppDelegate.applescript */,
+				4C3E4B51176ED99000809883 /* MainMenu.xib */,
+				4C3E4B44176ED99000809883 /* Supporting Files */,
+			);
+			path = "Pogo Print";
+			sourceTree = "<group>";
+		};
+		4C3E4B44176ED99000809883 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E4B45176ED99000809883 /* Pogo Print-Info.plist */,
+				4C3E4B46176ED99000809883 /* InfoPlist.strings */,
+				4C3E4B49176ED99000809883 /* main.m */,
+				4C3E4B4B176ED99000809883 /* Pogo Print-Prefix.pch */,
+				4C3E4B4C176ED99000809883 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3E4B37176ED99000809883 /* Pogo Print */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3E4B56176ED99000809883 /* Build configuration list for PBXNativeTarget "Pogo Print" */;
+			buildPhases = (
+				4C3E4B34176ED99000809883 /* Sources */,
+				4C3E4B35176ED99000809883 /* Frameworks */,
+				4C3E4B36176ED99000809883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pogo Print";
+			productName = "Pogo Print";
+			productReference = 4C3E4B38176ED99000809883 /* Pogo Print.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3E4B30176ED99000809883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = pogo;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Shoup";
+			};
+			buildConfigurationList = 4C3E4B33176ED99000809883 /* Build configuration list for PBXProject "Pogo Print" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C3E4B2F176ED99000809883;
+			productRefGroup = 4C3E4B39176ED99000809883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3E4B37176ED99000809883 /* Pogo Print */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3E4B36176ED99000809883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3E4B48176ED99000809883 /* InfoPlist.strings in Resources */,
+				4C3E4B4E176ED99000809883 /* Credits.rtf in Resources */,
+				4C3E4B53176ED99000809883 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3E4B34176ED99000809883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3E4B4A176ED99000809883 /* main.m in Sources */,
+				4C3E4B50176ED99000809883 /* pogoAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C3E4B46176ED99000809883 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3E4B47176ED99000809883 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C3E4B4C176ED99000809883 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3E4B4D176ED99000809883 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4C3E4B51176ED99000809883 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3E4B52176ED99000809883 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3E4B54176ED99000809883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C3E4B55176ED99000809883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C3E4B57176ED99000809883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pogo Print/Pogo Print-Prefix.pch";
+				INFOPLIST_FILE = "Pogo Print/Pogo Print-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C3E4B58176ED99000809883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pogo Print/Pogo Print-Prefix.pch";
+				INFOPLIST_FILE = "Pogo Print/Pogo Print-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3E4B33176ED99000809883 /* Build configuration list for PBXProject "Pogo Print" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3E4B54176ED99000809883 /* Debug */,
+				4C3E4B55176ED99000809883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3E4B56176ED99000809883 /* Build configuration list for PBXNativeTarget "Pogo Print" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3E4B57176ED99000809883 /* Debug */,
+				4C3E4B58176ED99000809883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3E4B30176ED99000809883 /* Project object */;
+}
